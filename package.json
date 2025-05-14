@@ -1,0 +1,35 @@
+{
+  "name": "paymentservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "npx prisma generate && node src/paymentService.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.12.0",
+    "@prisma/client": "^6.6.0",
+    "apollo-server-express": "^3.13.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^2.2.0",
+    "cookie": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.17.1",
+    "graphql": "^16.10.0",
+    "graphql-middleware": "^6.1.35",
+    "graphql-scalars": "^1.24.2",
+    "graphql-shield": "^7.6.5",
+    "graphql-upload": "^15.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "kafkajs": "^2.2.4",
+    "node": "^23.11.0",
+    "prisma": "^6.6.0",
+    "stripe": "^18.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
